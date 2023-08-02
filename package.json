@@ -1,0 +1,20 @@
+{
+  "name": "retroverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "esbuild": "^0.18.16",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "node ./esbuild.js",
+    "test": "jest"
+  }
+}
